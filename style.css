@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.two{
+    
+   /* border: 1px seagreen solid;*/
+   /* width: 400px;*/
+    padding: 10px;
+    text-align: justify;
+    width: 400px;
+    float: right;
+
+
+    
+}
+
+.twoa{
+    text-align: center;
+    border-bottom: 5px solid black;
+}
+
+.twob{
+    text-align: center;
+}
+.onea{
+   /* padding-right:100px;*/
+    background-color: #F7EFE5;
+
+}
+.three{
+    height: 200px;
+    width:200px;
+    
+    
+    
+}
+.this{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    
+}
+.one{
+    display:grid;
+    justify-items: right;
+    padding-right: 50px;
+    background-image: url("./img/HP_hero_cake_2_tiny-2048x1043-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size:contain,cover;
+    color:black;
+    
+}
+
+.main{
+    padding: 50px;
+    text-align: center;
+    
+
+    
+}
+/*.the{
+    border-bottom: 2px solid black;
+    
+
+}*/
+.thre{
+    position: absolute;
+    left:25%;
+    right: 25%;
+    padding: 30px;
+
+    
+}
+
+.base2{
+    display:flex;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+.base3{
+    
+    width:800px;
+    padding: 50px;
+    
+}
+.new{
+    padding-top: 10px;
+}
+
+.base1{
+    background-color: #573378;
+    color: #F7EFE5;
+}
+
+.sec1{
+    display: flex;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    background-color: #775098;
+    color: #F7EFE5;
+}
+
+.sec4{
+    width:500px;
+}
+.sec2{
+    text-align: center;
+    padding:50px;
+}
+.sec5{
+    padding: 45px;
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 50px;
+}
+
+.sec6{
+    padding-top: 30px;
+}
+
+
+.sec7{
+    padding-bottom:15px;
+    border-bottom-style: solid;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size:60px;
+
+}
+
+.oura{
+    
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #573378;
+    
+
+    
+    
+    
+
+}
+.ourb{
+    padding-top: 80px;
+    padding-bottom: 20px;
+
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size: 60px;
+    border-bottom-style: solid;
+
+    
+}
+.ourc{
+    
+    padding: 35px;
+    width: 600px;
+}
+
+.img3{
+    width:300px;
+    height: 300px;
+    padding-top: 15px;
+
+}
+.img2{
+    margin: 0 2rem;
+    text-align: center;
+    color: #573378;
+    
+    
+    
+    
+    
+}
+.img1{
+    display: flex;
+    padding: 20px;
+
+
+}
+.about1{
+    text-align: center;
+    padding: 20px;
+    color: #573378;
+    
+}
+.about2{
+    width:200px;
+    height: 200px;
+    border-radius: 60%;
+    padding-bottom: 5px;
+}
+
+.about{
+    width:600px;
+    display: flex;
+    border:2px ;
+    align-items: center;
+    padding: 20px;
+    color: #F7EFE5;
+    background-color: #573378;
+    
+}
+.about5{
+    text-align: center;
+    
+}
+.about4{
+    padding: 18px;
+    text-align: center;
+    
+}
+
+.about6{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 20px;
+}
+
+.ale3{
+    border-right: 5px solid;
+}
+
+.ale5{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    
+    
+}
+
+.bullet{
+    list-style-type: none;
+    color: #F7EFE5;
+    
+}
+
+.ale1{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+footer{
+    padding: 20px;
+    background-color: #775098;
+    color: #F7EFE5;
+}
+a{
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: underline;
+    color:#F7EFE5;
+
+}
+ 
+.dig{
+    padding: 8px;
+    
+}
+.dig2{
+    padding: 10px;
+}
+
+
+.ur{
+    color: #F7EFE5;
+}
+
+.it2{
+    width:150px;
+    height: 150px;
+}
+
+@media (max-width: 475px) {
+    
+    .two{
+        display: none;
+        visibility: hidden;
+        clear: both;
+
+    
+    }
+    .three{
+        width:200px;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .this{
+        background-image:url(./img/HP_hero_cake_2_tiny-2048x1043-removebg-preview.png );
+       
+        background-repeat: no-repeat;
+        
+        
+
+
+    }
+    .one{
+        background-image: none;
+        display:contents;
+        background-size: 400px,400px;
+        
+        
+        
+    }
+
+    .the{
+        padding: 10px;
+        border-bottom-style: solid;
+    }
+
+    .thre{
+        text-align: center;
+        display: contents;
+        font-display:initial;
+
+    }
+    .base2{
+        display:block;
+        justify-content: center;
+    }
+
+    .base3{
+        width:400px;
+    
+    }
+
+    .sec4{
+        width:350px;
+    }
+
+    .sec1{
+        display: block;
+    }
+
+    .sec5{
+        font-size: 30px;
+        float: left;
+    
+
+    }
+    .sec7{
+        font-size: 30px;
+    }
+    .ourb{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .ourc{
+        width:400px;
+    }
+
+    .img1{
+        display: grid;
+    }
+
+    .about{
+        display: grid;
+        width:400px;
+    }
+    .about6{
+        padding: 0px;
+    }
+
+    .about2{
+        width:200px;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+}
