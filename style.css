@@ -394,5 +394,16 @@ a{
         padding: 0;
     }
 
+    .it2{
+        width:100px;
+        height: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        
+    }
+
+
 
 }
