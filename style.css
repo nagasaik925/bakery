@@ -387,4 +387,12 @@ a{
         width: 50%;
     }
 
+    .ale1{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+    }
+
+
 }
